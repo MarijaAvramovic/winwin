@@ -1,0 +1,138 @@
+body {
+    background-image: url(pic/mo.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: : 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+h1{font-size: 36px;}
+h2{font-size: 28px;}
+h3{font-size: 24px;}
+h4{font-size: 21px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+
+a:link,
+a:visited{
+    color: #C51417;
+    text-decoration: none;
+}
+a:hover{
+    color: #FF0000;
+}
+a:active{
+    color: #777777;
+}
+#wrapper {
+    background: rgb(202, 204, 198);
+    width: 980px;
+    margin: 15px auto;
+    padding: 15px;
+    box-shadow: 0 2px 6px #333333;
+    border-radius: 3px;
+}
+#header {
+    background: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+ #logo_holder{
+    margin: 0;
+    padding: 0;
+     background-image: url(pic/ele.jpg);
+     border: 1px solid gray;
+ }
+.moto{
+    font-size: 22px;
+    font-style: italic;
+    margin: o;
+    text-transform: capitalize;
+    
+}
+#nav{
+    background: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#nav ul li a {
+    padding: 15px;
+    display: block;
+    
+}
+#nav ul li a:link,
+#nav ul li a:visited{
+    color: white;
+}
+#nav ul li a:hover{
+    background: grey;
+    color: black;
+}
+#nav ul li a:active{
+    background: gray;
+    color: black;
+}
+#social {
+    color: black;
+    font-size: 24px;
+    margin: 10px 10px 0;
+}
+
+
+#social a:link,
+#social a:visited{
+    color:#999999;
+}
+#social a:hover{
+    background: grey;
+    color: black;
+}
+#social a:active{
+    color:#666666;
+}
+#central {
+    display: flex;
+    justify-content: space-between;
+}
+#main {
+    flex-basis: 660px;
+}
+#sidebar {
+    flex-basis: 280px;
+}
+
+#sidebar .block h2{
+    background: #BBBBBB;
+    color: black;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    background: #333333;
+    color: #cccccc;
+    padding: 7px;
+    margin: 20px 0 0;
+}
+#footer p{
+    margin: 0;
+}
